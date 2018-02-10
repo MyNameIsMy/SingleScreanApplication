@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         DOWNLOAD_DIRECTORY_PASS = getFilesDir().getAbsolutePath();
 
         if (savedInstanceState == null) {
-            getFragmentManager().beginTransaction().add(R.id.fragment_container, new DownloadFileFragment(), "download_fragment").commit();
+            getFragmentManager().beginTransaction().add(R.id.fragment_container, new GeoNamesAppFragment(), "geonames_fragment").commit();
         }
     }
 
