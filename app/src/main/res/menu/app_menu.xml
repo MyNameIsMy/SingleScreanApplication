@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/first_app"
-        android:title="@string/first_app"
+        android:id="@+id/geonames_app"
+        android:title="@string/geonames_app"
         app:showAsAction="always"/>
 
     <item
-        android:id="@+id/second_app"
-        android:title="@string/second_app"
+        android:id="@+id/download_app"
+        android:title="@string/download_app"
         app:showAsAction="always"/>
 
     <item
